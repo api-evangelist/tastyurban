@@ -1,7 +1,28 @@
 aid: tastyurban
-name: Tastyurban
-description: Tastyurban is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tastyurban.png
+name: TastyUrban
+description: >-
+  TastyUrban is a Berlin-based virtual restaurant franchise and digital-first
+  food-brand licensing company founded in 2022 by Felix Chrobog, Marc Hansell,
+  and Gerry Pidgeon (alumni of Gorillas, Tier, and Deliveroo). It pursues an
+  asset-light model in which existing restaurants and retail partners license
+  and operate TastyUrban's digital food brands, using otherwise idle kitchen
+  capacity to add revenue without major investment or operational complexity.
+  The company is backed by Earlybird and raised a EUR 1.5M seed round in 2023
+  and a EUR 6.5M Series A in 2025 (led by IBB Ventures). TastyUrban operates a
+  consumer/partner web presence at tastyurban.com but publishes no public API,
+  developer portal, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/tastyurban/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Restaurants
+- Food
+- Franchise
+- Food Delivery
+- Virtual Restaurants
+- Hospitality
 apis: []
+common:
+- type: Website
+  url: https://www.tastyurban.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
